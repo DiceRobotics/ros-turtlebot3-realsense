@@ -1,0 +1,8 @@
+prefix=/home/awais/catkin_ws/devel
+
+Name: moving_object_msgs
+Description: Description of moving_object_msgs
+Version: 0.3.0
+Cflags: -I/home/awais/catkin_ws/devel/include
+Libs: -L/home/awais/catkin_ws/devel/lib 
+Requires: message_generation std_msgs sensor_msgs geometry_msgs

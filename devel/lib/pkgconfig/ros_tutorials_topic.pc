@@ -1,0 +1,8 @@
+prefix=/home/awais/catkin_ws/devel
+
+Name: ros_tutorials_topic
+Description: Description of ros_tutorials_topic
+Version: 0.1.0
+Cflags: -I/home/awais/catkin_ws/devel/include
+Libs: -L/home/awais/catkin_ws/devel/lib -lros_tutorials_topic
+Requires: std_msgs roscpp

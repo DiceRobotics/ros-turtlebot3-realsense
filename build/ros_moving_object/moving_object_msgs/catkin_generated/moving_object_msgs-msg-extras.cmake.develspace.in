@@ -1,0 +1,2 @@
+set(moving_object_msgs_MESSAGE_FILES "/home/awais/catkin_ws/src/ros_moving_object/moving_object_msgs/msg/MovingObject.msg;/home/awais/catkin_ws/src/ros_moving_object/moving_object_msgs/msg/MovingObjectStamped.msg;/home/awais/catkin_ws/src/ros_moving_object/moving_object_msgs/msg/MovingObjectsInFrame.msg;/home/awais/catkin_ws/src/ros_moving_object/moving_object_msgs/msg/SocialObject.msg;/home/awais/catkin_ws/src/ros_moving_object/moving_object_msgs/msg/SocialObjectsInFrame.msg")
+set(moving_object_msgs_SERVICE_FILES "")

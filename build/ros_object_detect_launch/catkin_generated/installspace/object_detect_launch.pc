@@ -1,0 +1,8 @@
+prefix=/home/awais/catkin_ws/install
+
+Name: object_detect_launch
+Description: Description of object_detect_launch
+Version: 0.3.0
+Cflags: 
+Libs: -L/home/awais/catkin_ws/install/lib -lobject_detect_launch
+Requires: roslaunch opencl_caffe_launch

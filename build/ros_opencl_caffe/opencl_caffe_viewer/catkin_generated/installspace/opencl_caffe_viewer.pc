@@ -1,0 +1,8 @@
+prefix=/home/awais/catkin_ws/install
+
+Name: opencl_caffe_viewer
+Description: Description of opencl_caffe_viewer
+Version: 0.3.0
+Cflags: 
+Libs: -L/home/awais/catkin_ws/install/lib -lopencl_caffe_viewer
+Requires: roslib roscpp sensor_msgs std_msgs object_msgs opencl_caffe

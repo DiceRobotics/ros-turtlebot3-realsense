@@ -1,0 +1,7 @@
+\subsubsection usage Usage
+\verbatim
+<node name="alogrithms" pkg="object_analytics_nodelet" type="alogrithms">
+  <param name="algorithm" type="str" value="OrganizedMultiPlaneSegmentation" />
+</node>
+\endverbatim
+

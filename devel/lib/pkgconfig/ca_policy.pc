@@ -1,0 +1,8 @@
+prefix=/home/awais/catkin_ws/devel
+
+Name: ca_policy
+Description: Description of ca_policy
+Version: 0.3.0
+Cflags: 
+Libs: -L/home/awais/catkin_ws/devel/lib 
+Requires: roscpp sensor_msgs std_msgs geometry_msgs moving_object_msgs message_filters tf ca_policy_msgs kobuki_msgs

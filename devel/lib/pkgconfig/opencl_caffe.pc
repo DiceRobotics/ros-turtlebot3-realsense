@@ -1,0 +1,8 @@
+prefix=/home/awais/catkin_ws/devel
+
+Name: opencl_caffe
+Description: Description of opencl_caffe
+Version: 0.3.0
+Cflags: -I/home/awais/catkin_ws/src/ros_opencl_caffe/opencl_caffe/include
+Libs: -L/home/awais/catkin_ws/devel/lib -lopencl_caffe
+Requires: roslib roscpp sensor_msgs std_msgs object_msgs

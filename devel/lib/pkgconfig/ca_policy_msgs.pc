@@ -1,0 +1,8 @@
+prefix=/home/awais/catkin_ws/devel
+
+Name: ca_policy_msgs
+Description: Description of ca_policy_msgs
+Version: 0.3.0
+Cflags: -I/home/awais/catkin_ws/devel/include
+Libs: -L/home/awais/catkin_ws/devel/lib 
+Requires: message_runtime geometry_msgs std_msgs

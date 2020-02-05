@@ -1,0 +1,15 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~comparator" : \b [int] Comparator to be used for segmentation min: 0, default: 0, max: 3
+- \b "~min_cluster_size" : \b [int] The minimum number of points that a cluster needs to contain in order to be considered valid min: 10, default: 300, max: 10000
+- \b "~min_plane_inliers" : \b [int] The mininum number of inliers required for a plane min: 100, default: 1000, max: 10000
+- \b "~normal_max_depth_change" : \b [double] The depth in meters change threshold for computing object borders min: 0.001, default: 0.02, max: 0.1
+- \b "~normal_angle_threshold" : \b [double] The tolerance in degrees for difference in normal direction between neighboring points, to be considered part of same plane min: 0.01, default: 2.0, max: 45.0
+- \b "~normal_distance_threshold" : \b [double] The tolerance in meters for difference in perpendicular distance to the plane between neighboring points, to be considered part of same plane min: 0.001, default: 0.02, max: 0.1
+- \b "~normal_smooth_size" : \b [double] The factor which influences the size of the area used to smooth normals min: 1.0, default: 30.0, max: 100.0
+- \b "~euclidean_distance_threshold" : \b [double] Max distance for two objects to be considered as separated min: 0.001, default: 0.02, max: 0.1
+- \b "~plane_minimum_points" : \b [int] Minimum points count for a cluster to be consider as a plane min: 1000, default: 2000, max: 20000
+- \b "~object_minimum_points" : \b [int] Minimum points count for a cluster to be consider as an object min: 1, default: 200, max: 5000
+

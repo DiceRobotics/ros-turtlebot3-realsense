@@ -1,0 +1,6 @@
+set(object_map_SETUP_PY_VERSION "0.0.0")
+set(object_map_SETUP_PY_SCRIPTS "")
+set(object_map_SETUP_PY_PACKAGES "object_map")
+set(object_map_SETUP_PY_PACKAGE_DIRS "src/object_map")
+set(object_map_SETUP_PY_MODULES "")
+set(object_map_SETUP_PY_MODULE_DIRS "")

@@ -1,0 +1,8 @@
+prefix=/home/awais/catkin_ws/devel
+
+Name: opencl_caffe_launch
+Description: Description of opencl_caffe_launch
+Version: 0.3.0
+Cflags: 
+Libs: -L/home/awais/catkin_ws/devel/lib -lopencl_caffe_launch
+Requires: roslaunch opencl_caffe opencl_caffe_viewer

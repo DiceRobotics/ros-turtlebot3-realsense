@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+<name>ros_fla_sumup</name>
+<version>0.1.0</version>
+<description>Sum up package for firing lane alignment</description>
+<license>Apache License 2.0</license>
+<author email="m.awais@kaist.ac.kr">M. Awais Arshad</author>
+<maintainer email="m.awais@kaist.ac.kr">M. Awais Arshad</maintainer>
+<url type="website">http://ascl.kaist.ac.kr</url>
+<buildtool_depend>catkin</buildtool_depend>
+<build_depend>roscpp</build_depend>
+<build_depend>std_msgs</build_depend>
+<build_depend>message_generation</build_depend>
+<run_depend>roscpp</run_depend>
+<run_depend>std_msgs</run_depend>
+<run_depend>message_runtime</run_depend>
+<export></export>
+</package>
