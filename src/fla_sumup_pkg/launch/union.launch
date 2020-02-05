@@ -1,0 +1,6 @@
+<launch>
+<node pkg="fla_sumup_pkg" type="fla_topic_publisher_node" name="fla_topic_publisher_node1"/>
+<node pkg="fla_sumup_pkg" type="fla_topic_subscriber_node" name="fla_topic_subscriber_node1"/>
+<node pkg="fla_sumup_pkg" type="fla_topic_publisher_node" name="fla_topic_publisher_node2"/>
+<node pkg="fla_sumup_pkg" type="fla_topic_subscriber_node" name="fla_topic_subscriber_node2"/>
+</launch>
